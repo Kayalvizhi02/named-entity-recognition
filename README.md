@@ -134,4 +134,8 @@ Include your plot here
 ### Sample Text Prediction
 Include your sample text prediction here.
 
-## RESULT
+## RESULT:
+
+Thus an LSTM-based model for recognizing the named entities in the text was successfully developed.
+
+
