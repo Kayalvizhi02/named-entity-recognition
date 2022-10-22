@@ -1,6 +1,6 @@
 # Named Entiry Recognition
 
-## AIM
+## AIM:
 
 To develop an LSTM-based model for recognizing the named entities in the text.
 
@@ -125,14 +125,17 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
 
 ```
-## OUTPUT
+## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![accuracy](https://user-images.githubusercontent.com/75413726/197330368-bf7a69dc-752b-4836-9315-af9f59bff50f.png)
+
+![loss](https://user-images.githubusercontent.com/75413726/197330376-0c20ba79-445a-4336-a5ac-32cc3d8e6d4f.png)
 
 ### Sample Text Prediction
-Include your sample text prediction here.
+
+![pred](https://user-images.githubusercontent.com/75413726/197330390-91fe7372-caf0-4712-b9f8-7cab1b84fa8f.png)
 
 ## RESULT:
 
