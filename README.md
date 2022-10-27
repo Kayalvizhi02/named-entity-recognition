@@ -13,12 +13,25 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
+Import the necessary packages.
 
 ### STEP 2:
+Read the dataset and fill the null values using forward fill.
 
 ### STEP 3:
+Create a list of words and tags. Also find the number of unique words and tags in the dataset.
 
-Write your own steps
+### STEP 4:
+Create a dictionary for the words and their Index values. Repeat the same for the tags as well.
+
+### STEP 5:
+We done this by padding the sequences and also to acheive the same length of input data.
+
+### STEP 6:
+We build the model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers.
+
+### STEP 7:
+We compile the model to fit the train sets and validation sets.
 
 ## PROGRAM:
 
