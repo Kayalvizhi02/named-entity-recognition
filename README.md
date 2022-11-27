@@ -1,4 +1,7 @@
-# Named Entiry Recognition
+## EXP.NO : 6
+## DATE :
+
+# <p align="center"> Named Entiry Recognition </p>
 
 ## AIM:
 
@@ -37,12 +40,10 @@ We build the model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, 
 We compile the model to fit the train sets and validation sets.
 
 ## PROGRAM:
+#### Developed By : KAYALVIZHI M
+#### Register Number : 212220230024
 
 ```python
-
-# Developed By : KAYALVIZHI M
-# Register Number : 212220230024
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
